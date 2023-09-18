@@ -97,8 +97,27 @@ button:active {
 }
 
 .emptyframe {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border: 3px solid #3882f6;
     border-radius: 10px;
+}
+
+.row-of-img {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    gap: 75px;
+}
+
+.alignment {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 150px;
+    color: #595959;
+}
+
+.textcentering {
+    text-align: center;
 }
