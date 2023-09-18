@@ -95,3 +95,10 @@ button:active {
     font-weight: 800;
     padding: 30px;
 }
+
+.emptyframe {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
