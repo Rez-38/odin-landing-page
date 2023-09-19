@@ -94,11 +94,12 @@ button:active {
     text-align: center;
     font-weight: 800;
     padding: 30px;
+    color: #1f2937;
 }
 
 .emptyframe {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border: 3px solid #3882f6;
     border-radius: 10px;
 }
@@ -107,7 +108,7 @@ button:active {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
-    gap: 75px;
+    gap: 125px;
 }
 
 .alignment {
@@ -120,4 +121,25 @@ button:active {
 
 .textcentering {
     text-align: center;
+}
+
+.quotesection {
+    background: #e5e7eb;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 100px;
+    align-content: space-between;
+}
+
+.quote {
+    align-self: center;
+    font-size: 36px;
+    width: 750px;
+    color: #1f2937;
+}
+
+.author {
+    font-weight: 800;
+    margin-left: 425px;
+    align-self: center;
 }
