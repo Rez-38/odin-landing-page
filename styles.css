@@ -11,21 +11,21 @@ body {
     background: #1f2937;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     font-size: 24px;
     font-weight: 700;
     color: whitesmoke;
-    gap: 560px;
-    padding-bottom: 50px;
+    gap: 500px;
+    padding-bottom: 100px;
 }
 
 .subheader {
     display: flex;
-    justify-content: center;
-    gap: 270px;
+    justify-content: space-around;
+    /*gap: 270px;*/
     background: #1f2937;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 .blc {
@@ -34,7 +34,7 @@ body {
     flex-flow: column nowrap;
     justify-content: center;
     align-items: flex-start;
-    width: 400px;
+    width: 475px;
     gap: 10px;
 }
 
@@ -70,7 +70,7 @@ p {
 }
 
 img {
-    width: 400px;
+    width: 600px;
     max-height: 250px;
 }
 
@@ -103,7 +103,7 @@ button:active {
     width: 200px;
     height: 200px;
     border: 4px solid #3882f6;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .row-of-img {
@@ -111,13 +111,14 @@ button:active {
     flex-flow: row nowrap;
     justify-content: center;
     gap: 125px;
+    padding-bottom: 100px;
 }
 
 .alignment {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    width: 150px;
+    width: 175px;
     color: #595959;
 }
 
@@ -136,28 +137,30 @@ button:active {
 .quote {
     align-self: center;
     font-size: 36px;
-    width: 750px;
+    width: 825px;
     color: #1f2937;
 }
 
 .author {
     font-weight: 800;
-    margin-left: 425px;
+    margin-left: 450px;
     align-self: center;
 }
 
 .calltoaction {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    margin: 125px;
+    margin: 100px 125px;
     background: #3882f6;
-    padding: 75px;
+    padding: 75px 100px;
     color: whitesmoke;
     border-radius: 10px;
-    gap: 600px;
-    flex-shrink: 0.5;
+}
+
+.left {
+    min-width: 0;
 }
 
 .bold {
@@ -176,5 +179,5 @@ button:active {
     align-items: center;
     background: #1f2937;
     color: whitesmoke;
-    padding: 25px;
+    padding: 35px;
 }
