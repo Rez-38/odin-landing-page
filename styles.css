@@ -81,6 +81,7 @@ button {
     border-radius: 8px;
     cursor: pointer;
     font-size: 18px;
+    font-weight: 800;
 }
 
 button:hover {background-color: #0047b3;}
@@ -142,4 +143,26 @@ button:active {
     font-weight: 800;
     margin-left: 425px;
     align-self: center;
+}
+
+.calltoaction {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 125px;
+    background: #3882f6;
+    padding: 75px;
+    color: whitesmoke;
+    border-radius: 10px;
+    gap: 600px;
+}
+
+.bold {
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.bottombutton {
+    border: 2px solid whitesmoke;
 }
